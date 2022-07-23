@@ -4,20 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/style.css" rel="stylesheet" type="text/css" />
     <title>Document</title>
     <style>
         a {
           color: rgb(140, 7, 7); 
           text-decoration: none; 
         }
+
         a:hover {
             color: blue; 
           text-decoration: underline; 
         }
+
         a:visited {
             color: green;
         }
+        
+        .the-list {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        /* .the-list div {
+            margin: 0 10px;
+        }*/
+
+        .students {
+        display:flex;
+        /*justify-content: space-evenly;   разделение блоков на отдельные*/
+         }
+
+        .student {
+            color: blueviolet;
+            border: 1px solid red;
+            padding: 20px;
+            flex: 1;
+        }
+
     </style>
+
+    
+
 </head>
 <body>
     <h1>My portfolio</h1>
@@ -32,16 +61,27 @@
     <a href="#important">link2</a><br />
     <a href="mailto:bonko23@gmail.com">bonko23@gmail.com</a>
     <h2>Important</h2>
-    <h2>Important</h2>
-    <h2>Important</h2>
-    <h2>Important</h2>
-    <h2>Important</h2>
-    <h2 id="not-important">Not Important</h2>
-    <h2>Important</h2>
-    <h2>Important</h2>
-    <h2>Important</h2>
+    <div class="the-list">
+        
+    <div>Important</div>
+    <div>Important</div>
+    <div>Important</div>
+    <div>Important</div>
+    <div id="not-important">Not Important</div>
+    <div>Important</div>
+    <div>Important</div>
+    <div>Important</div>
     <a name="important"></a>
-    <h2>Important</h2>
+    <div>Important</div>
+    </div>
+    
+    <div class="students">
+        <div class="student">Marina</div>
+        <div class="student">Vitalina</div>
+        <div class="student">Olga</div>
+        <div class="student">Rita</div>
+
+    </div>
 
 </body>
 </html>

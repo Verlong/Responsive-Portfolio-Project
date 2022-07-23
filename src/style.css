@@ -1,0 +1,18 @@
+:root {
+    --extra-grey-color: #e3e3e3;
+    --extra-deepblue-color: #233142;
+    --extra-blue-color: #455d7a;
+    --extra-coral-color: #f95959;
+    --extra-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    --extra-gradient: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  }
+
+  body {
+    background-color: var(--extra-gradient);
+  }
+
+
+  h1 {
+    color: var(--extra-coral-color);
+
+  }
