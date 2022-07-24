@@ -1,18 +1,104 @@
 :root {
-    --extra-grey-color: #e3e3e3;
-    --extra-deepblue-color: #233142;
-    --extra-blue-color: #455d7a;
-    --extra-coral-color: #f95959;
-    --extra-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
-    --extra-gradient: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    --green-color: #a3f7bf;
+    --blue-color: #29a19c;
+    --turquoise-color: #4b6289;
+    --purple-color: #60316e;
+    --extra-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    --extra-gradient: linear-gradient(120deg, #a3f7bf 0%, #29a19c 100%);
   }
 
   body {
-    background-color: var(--extra-gradient);
+    background: var(--green-color);
   }
 
 
   h1 {
-    color: var(--extra-coral-color);
+    color: var(--purple-color);
+
+  }
+
+  h2, h3 {
+    color: var(--purple-color);
+  }
+
+  a {
+    color: var(--purple-color); 
+    text-decoration: none; 
+  }
+
+  a:hover {
+    color: white; 
+    text-decoration: underline; 
+  }
+
+  #contact-me-link:visited {
+      color: var(--turquoise-color);}
+
+
+  .greetings {
+    margin: 50px auto;
+  }
+
+  .navigation-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation-links a {
+    margin: 40px 10px;
+    background: var(--extra-gradient);
+    border: 1px solid #60316e;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-shadow: var(--extra-shadow);
+   
+}
+
+  .contact-link {
+    background: var(--turquoise-color);
+    box-shadow: var(--extra-shadow);
+    color: var(--purple-color);
+  }
+
+  .about-link {
+    color: var(--turquoise-color);
+    border: 1px solid var(--turquoise-color);
+}
+
+
+
+  .countries {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+
+  .country {
+    border: 1px solid #60316e;
+    border-radius: 4px;
+    padding: 20px 15px;
+    margin: 60px auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-shadow: var(--extra-shadow)
+
+  }
+
+  
+  .paragraphs {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .paragraph {
+    border: 1px solid #60316e;
+    border-radius: 4px;
+    padding: 20px 15px;
+    max-width: 40%;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-shadow: var(--extra-shadow)
 
   }
