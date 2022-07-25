@@ -30,6 +30,9 @@
     color: white; 
     text-decoration: underline; 
   }
+  .center {
+    text-align: center;
+  }
 
   #contact-me-link:visited {
       color: var(--turquoise-color);}
