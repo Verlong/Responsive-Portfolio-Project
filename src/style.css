@@ -34,6 +34,19 @@
     text-align: center;
   }
 
+  .underline {
+    text-decoration: underline;
+  }
+
+  .highlight {
+    background: yellow;
+    padding: 10px;
+  }
+
+  .bg-warning {
+    background: blueviolet !important;
+  }
+
   #contact-me-link:visited {
       color: var(--turquoise-color);}
 
